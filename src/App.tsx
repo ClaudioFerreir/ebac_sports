@@ -33,10 +33,6 @@ function App() {
     }
   }
 
-  function adicionarAoCarrinho() {
-    console.log('adicionar ao carrinho')
-  }
-
   return (
     <Provider store={store}>
       <GlobalStyle />
@@ -46,7 +42,6 @@ function App() {
           produtos={produtos}
           favoritos={favoritos}
           favoritar={favoritar}
-          adicionarAoCarrinho={adicionarAoCarrinho}
         />
       </div>
     </Provider>
